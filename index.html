@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div>
+        <div>
+            <div class="myNavbar">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="row">  
+                  <div class="navbar-header">
+                    <a class="headerLogo" href="#">
+                        <img src="img/logo.nav.png" alt="logo">
+                    </a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Home<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                      </ul>
+                      
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 2-1</a></li>
+                        <li><a href="#">Page 2-2</a></li>
+                        <li><a href="#">Page 2-3</a></li>
+                      </ul>
+                     
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 3-1</a></li>
+                        <li><a href="#">Page 3-2</a></li>
+                        <li><a href="#">Page 3-3</a></li>
+                      </ul>
+                      
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Page 4-1</a></li>
+                        <li><a href="#">Page 4-2</a></li>
+                        <li><a href="#">Page 4-3</a></li>
+                      </ul>
+                    
+                    <li><a href="#">About Us</a></li>
+                  </ul>
+
+                  <!-- <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul> -->
+                  </div>
+                </div>
+            </nav>
+
+            </div>
+
+
+
+            <div class="bigDiv">
+                <div class="firstD">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <img src="img/section1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="secondD">
+                    <div class="container">
+                        <div class="col-lg-4">
+                            <div class="sDdiv">
+                                <img src="img/section2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8">
+                            <div class="sRight">
+                                <h3 class="text-capitalize">Black T-Shirt For Woman</h3>
+                                <div class="reviews_rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span>(5 Customer Review)</span>
+                                </div><br>
+                                <h4>
+                                    $87 <del>$145</del>
+                                </h4><br>
+                                <p>
+                                    Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.
+                                </p><br>
+                                <div class="selects">
+                                    <select name="" class="customs_sel_box">
+                                        <option value="size">Size</option>
+                                        <option value="xl">XL</option>
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                    </select>
+                                </div><br>
+                                <div class="colorBtn">
+                                    <span>Color</span>
+                                    <ul class="color-variant d-flex">
+                                        <li><a class="yellow" href=""></a></li>
+                                        <li><a class="white" href=""></a></li>
+                                        <li><a class="pink" href=""></a></li>
+
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="window">
+
+
+                                    <button class="tablink" onclick="openPage('Description', this)">Description</button>
+                                    <button class="tablink" onclick="openPage('Information', this)" id="defaultOpen">News</button>
+                                    <button class="tablink" onclick="openPage('Reviews', this)">About</button>
+
+                                    <div id="Description" class="tabcontent">
+                                        <pre>
+                                            Curabitur arcu erat, accumsan id imperdiet et,  sem. Vestibulum ac diam sit amet quam vehicula elemen
+                                            tum sed sit amet dui. Sed porttitor lectus nibh. Vivamus , lacinia eget consectetur sed, convallis at 
+                                            tellus. Sed porttitor lectus nibh. Donec sollicitudin  malesuada. Vivamus magna justo, lacinia eget 
+                                            consectetur sed, convallis at tellus. Curabitur , accumsan id imperdiet et, porttitor at sem.
+
+                                                Vivamus magna justo, lacinia eget consectetur sed
+                                                Curabitur aliquet quam id dui posuere blandit
+                                                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+
+                                            Donec sollicitudin molestie malesuada. Cras ultricies magna dictum porta. Mauris blandit aliquet elit,
+                                            eget tincidunt nibh pulvinar a. Nulla porttitor tincidunt. Cras ultricies ligula sed magna dictum porta.
+                                            Curabitur arcu erat, imperdiet et, Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit
+                                            amet, consectetur elit. porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                                        </pre>
+                                    </div>
+
+                                    <div id="Information" class="tabcontent">
+                                        <pre>
+                                            Weight:
+                                            400 g
+                                            Dimensions:
+                                            10 x 10 x 15 cm
+                                            Materials:
+                                            60% cotton, 40% polyester
+                                            Other Info:
+                                            American heirloom jean shorts pug seitan letterpress</pre> 
+                                    </div>
+
+
+                                    <div id="Reviews" class="tabcontent">
+                                        
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div class="thirdD"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+https://preview.themeforest.net/item/andshop-ecommerce-vue-js-template/full_screen_preview/32523571?_ga=2.96883478.867823469.1640851248-59123584.1630024010

@@ -1,0 +1,152 @@
+
+
+.myNavbar .container-fluid{
+    width: 100%;
+    height: 80px;
+    background-color: #FEF5EF;
+    text-align: center;
+    font-size: 14px;
+}
+.myNavbar{
+    min-width: 100%;
+    padding: 0;
+    margin-bottom: -20px;
+}
+
+.myNavbar ul li a{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 25px 20px;
+    
+}
+
+.myNavbar ul li a:hover {
+    color: gold;
+}
+
+
+.myNavbar ul li {
+    padding-left: 35px;
+}
+
+
+.bigDiv{
+    width: 100%;
+    height: 1500px;
+    /* background-color: red; */
+}
+
+.firstD{
+    width: 100%;
+    height: 280px;
+    
+}
+
+.bigDiv .firstD img{
+    width: 100%;
+    height: 280px;
+    background-size: contain;
+}
+
+.firstD h2{
+    color: white;
+    position:absolute;
+    left: 47%;
+    bottom: 370px;
+}
+
+
+.sDdiv{
+    width: 365px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.sDdiv img{
+    width: 365px;
+    height: 500px;
+}
+
+.secondD .col-lg-8{
+    padding-top: 100px;
+}
+
+.reviews_rating{
+    color: #F79837;
+}
+
+.reviews_rating span{
+    color: black;
+}
+
+del{
+    color: #F79837;
+}
+
+.customs_sel_box {
+    width: 200px;
+    height: 45px;
+    padding: 12px;
+    font-size: 16px;
+    border-color: #F79837;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.color-variant li a {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* window css */
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    scrollbar-width: none;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+ 
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  /* #Description {background-color: red;}
+  #Information {background-color: green;}
+  #Reviews {background-color: orange;} */
+
+  .window{
+      background: none;
+      padding-top: 150px;
+  }
